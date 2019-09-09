@@ -1,9 +1,9 @@
 # Curso de introdução ao Python e Machine Learning
 Seja bem-vindo!!! Neste repositório você encontrará todo o material e informações relativos ao curso ministrado por **Jailson Pereira** e **Allex Lima**.
 
-Facilitadores: **Jailson P. Januário**, **Allex Lima**
+Facilitadores: **Allex Lima, Jailson P. Januário**
 
-Email: **jpj.ads@uea.edu.br**, **allexlima97@gmail.com **
+Email: **allexlima97@gmail.com, jpj.ads@uea.edu.br**
 
 ## Resumo
 
