@@ -1,5 +1,6 @@
 from model import ContaBancaria
-
+from model import Cliente
+'''
 conta = ContaBancaria()
 
 conta.agencia = '0233'
@@ -19,3 +20,37 @@ if conta.sacar(2500.0):
     print('Saque realizado com sucesso :-)')
 else:
     print('Saldo insuficiente :-(')
+
+'''
+'''
+# Teste do método de transferência
+origem = ContaBancaria()
+origem.depositar(1200.0)
+
+destino = ContaBancaria()
+
+print('\n Saldo Inicial Origem: ', origem.saldo)
+print('Saldo Inicial Destino', destino.saldo)
+print('Transferência ===========')
+origem.transferir(500.0, destino)
+print('Saldo Origem: ', origem.saldo)
+print('Saldo destino: ', destino.saldo)
+
+'''
+
+'''
+#Teste Cliente
+cliente = Cliente()
+cliente.nome = 'Luiza'
+cliente.cpf = '123456'
+cliente.email = 'luiza@gmail.com'
+
+conta = ContaBancaria()
+conta.saldo = 1000.0
+conta.cliente = cliente
+
+print('Saldo: ', conta.saldo)
+print('CPF: ', conta.cliente.cpf)
+print('Nome: ', conta.cliente.nome)
+print('E-mail: ', conta.cliente.email)
+'''
