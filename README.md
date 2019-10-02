@@ -12,7 +12,7 @@ O mini-curso irá considerar uma introdução e revisão de prpogramação em Py
   Será abordado uma introdução e revisão das pricipais estruturas de dados e conceitos de orientação a objetos com a linguagem.
   
 - Flask
-  FALTA COMENTAR
+  Será feita a criação de uma API para implantação de um modelo de Machine Learning.
   
 - Aprendizado de Máquina
   Serão trabalhados aspectos como organização e visualização de dados, construção de modelos inteligentes para aprendizado de padrões e realização de previsões e ainda a interpretação e discussão acerca dos resultados obtidos. Os exemplos usados no mini-curso serão oriundos de cenários reais, permitindo aos alunos ampliarem seus horizontes sobre esta área e sua infinidade de aplicações no mundo de hoje.
