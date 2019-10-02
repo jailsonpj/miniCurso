@@ -1,8 +1,13 @@
 from model import ContaBancaria
+import model as md
 from model import Cliente
+
+
+import numpy as np
+import pandas as pd
 '''
 conta = ContaBancaria()
-
+model.ContaBancaria()
 conta.agencia = '0233'
 conta.numero = '1234-5'
 conta.nome_cliente = 'Maria Jose'
