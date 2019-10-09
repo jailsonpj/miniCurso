@@ -1,0 +1,59 @@
+Diferenças entre SQL e NoSQL:
+-> SQL:
+    - o modelo é de natureza relacional
+    - os dados são armazenados em tabelas
+    - adequado para soluções em que todos os registros são do mesmo tipo e possuem as mesmas propriedades
+    - adicionar uma nova propriedade significa que vc deve alterar todo o esquema
+    - o esquema é muito rigoso
+    
+-> NoSQL:
+    - o modelo não é relacional
+    - pode ser armazenado como JSON, valor-chave etc
+    - Nem todo registro precisa ser da mesma natureza, tornandno-o muito flexível
+    - adicione novas propriedades aos dados sem atrapalhar nada
+    
+Algumas características mais importantes do MongoDB são:
+    - suporte a consulta padrão, como correspondência (==), comparação (<,>) ou até regex
+    - armazenamento de qualquer tipo de dados - seja estruturado, parcialmente estruturado ou até polimórfico
+    - ser um banco de dados baseado em documentos significa que você pode armazenar as informações relacionadas ao seu modelo em um único documento
+    
+
+Os bancos de dados SQL usam o SQL (Structured Query Language) na definição e manipulação de dados. Ao usar o SQL, precisamos de um servidor Sistema de Gerenciamento de Banco de Dados Relacional (RDBMS), como SQL Server, servidor MySQL ou MS Access. Os dados no RDBMS são armazenados em objetos de banco de dados chamados tabelas. Uma tabela é uma coleção de entradas de dados relacionadas e consiste em colunas e linhas.
+
+Um banco de dados NoSQL possui um esquema dinâmico para dados não estruturados. No NoSQL, os dados são armazenados de várias maneiras: eles podem ser orientados a colunas, documentos, gráficos ou organizados como um armazenamento de valores-chave. Um banco de dados NoSQL tem as seguintes vantagens:
+
+Os documentos podem ser criados sem precisar primeiro definir sua estrutura
+Cada documento pode ter sua própria estrutura exclusiva
+A sintaxe pode variar de banco de dados para banco de dados
+Grandes volumes de dados estruturados, semiestruturados e não estruturados
+Programação orientada a objetos que é fácil de usar e flexível
+É escalável horizontalmente
+
+
+
+
+
+->>> instalação no windows
+
+
+----->> https://www.mongodb.com/download-center/community
+
+
+O arquivo mongod.exe é o servidor, e o cliente é executado a partir do arquivo mongo.exe.
+
+Nosso próximo passo será configurar o ambiente do MongoDB. É necessário criar um diretório de dados para armazenar todos os dados da instância. O caminho padrão usado pelo MongoDB é um diretório com o nome de \data\db. Criaremos esse diretório da seguinte forma:
+
+- Crie o diretório data dentro do diretório raiz C:\
+- Dentro do diretório data criado, crie um diretório de nome db – Você terá então a estrutura de diretórios C:\data\db\
+- Abra um prompt de comandos (cmd.exe)
+- Digite o comando a seguir:
+
+----> C:\mongodb\bin\mongod.exe --dbpath C:\data\db\
+
+----> Para executar o serviço do MongoDB, abra um prompt de comandos e execute o comando a seguir:
+C:\mongodb\bin\mongod.exe
+
+
+
+
+start banco -> systemctl start mongodb.service
