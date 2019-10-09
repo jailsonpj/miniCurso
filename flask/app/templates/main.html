@@ -1,0 +1,22 @@
+<html lang="en">
+
+<body>
+   
+<a align="right" id=link><button type="button" class="btn btn-info">{{ button_text }}</button></a>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type=text/javascript>
+        $(function() {
+          $('a#link').bind('click', function() {
+            $.getJSON('/add_job',
+                function(data) {
+            });
+            return false;
+          });
+        });
+</script>
+    
+
+</body>    
+    
+</html>
